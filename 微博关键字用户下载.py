@@ -60,7 +60,7 @@ def main():
     browser.implicitly_wait(30)
     #sign in the username //*[@id="loginname"]
     try:
-        browser.find_element_by_xpath('//*[@id="loginname"]').send_keys('753239196@qq.com')
+        browser.find_element_by_xpath('//*[@id="loginname"]').send_keys('账号')
         print('user success!')
     except:
         print('user error!')
@@ -68,7 +68,7 @@ def main():
     
     #sign in the pasword
     try:
-        browser.find_element_by_xpath('//*[@id="pl_login_form"]/div/div[3]/div[2]/div/input').send_keys('wB@suxiao9222')
+        browser.find_element_by_xpath('//*[@id="pl_login_form"]/div/div[3]/div[2]/div/input').send_keys('密码')
         print('pw success!')
     except:
         print('pw error!')
